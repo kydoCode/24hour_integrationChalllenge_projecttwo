@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
 /* Fonts */
 
 .roboto-thin {
@@ -88,6 +93,16 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  h1 {
+    font-size: 52px;
+    color: #000;
+    /* width: 650px; */
+  }
+
+  p {
+    font-size: 16px;
+  }
   
 /* Variables */
 
@@ -103,6 +118,7 @@
 
 .container-width-1440px {
     max-width: 1440px;
+    padding: 10px;
 }
 
 /* HEADER */
@@ -137,4 +153,21 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: red;
+}
+
+/* MAIN */
+
+/** Section 1 **/
+
+main #first-section div {
+    display: flex;
+    padding: 76.8px 30px;
+}
+
+main #first-section div p {
+    align-self: center;
+}
+
+#first-section img {
+    padding: 0 71px;
 }
